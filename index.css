@@ -5,7 +5,7 @@
 .container{
     height: 100vh;
     background-position: center;
-    background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background.jpg);
+    background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://moundirbenredjem.github.io/The-Hood/background.jpg);
 }
 h1{
     color: brown;
