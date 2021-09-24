@@ -2,11 +2,32 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    height: 100vh;
-    background-position: center;
-    background: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background.jpg);
+
+body, html {
+    height: 100%;
 }
-h1{
-    color: brown;
+
+.bg{
+    background-image: url("background.jpg")!important;
+    opacity: 1;
+    height: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .nav, h1{
+    margin-top: 35px !important;
+    color: white !important;
+    position: relative !important;
+    display: inline !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white !important;
+    float: right;
+    margin-right: 20px;
 }
